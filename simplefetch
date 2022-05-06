@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+echo -e "\033[0;36mYou are \033[1;36m$(whoami)\033[0;36m, on \033[1;36m$(uname -n)."
+echo -e "\n\033[1;31mSystem info\033[0;31m"
+lsb_release -a
+uname -a
+echo -e "\n\033[1;32mMemory\033[0;32m"
+free -h
+echo -e "\n\033[1;34mDisk\033[0;34m"
+df -h
+echo -e "\033[0m"
