@@ -1,4 +1,4 @@
-simplefetch:
-	echo "Run 'make install' to install simplefetch"
+all:
+	@echo Run \'make install\' to install simplefetch
 install:
-	cp simplefetch /usr/local/bin/simplefetch
+	@cp simplefetch /usr/local/bin/simplefetch
